@@ -104,7 +104,7 @@ CLASSIFICATION REPORT:
 
 
 ### Residual Convolutional Network :
-TOTAL TIME: 0.6849900325139363 minutes
+TOTAL TIME: 0.6849900325139363 minutes (A GPU have been used for the training process)
 
 BALANCED ACCURACY: 0.9228672182817697
 
@@ -122,8 +122,9 @@ CLASSIFICATION REPORT:
             macro avg       0.83      0.92      0.87     21892
          weighted avg       0.97      0.97      0.97     21892
 
+
 ### Network with inception blocks :
-TOTAL TIME: 12.68472870985667 minutes
+TOTAL TIME: 12.68472870985667 minutes (A GPU have been used for the training process)
 
 BALANCED ACCURACY: 0.935212511051738
 
@@ -141,3 +142,8 @@ CLASSIFICATION REPORT:
              accuracy                           0.97     21892
             macro avg       0.84      0.94      0.88     21892
          weighted avg       0.98      0.97      0.98     21892
+
+
+## Future Work
+Due to limited time, in the future we would conduct some more experiments for a better parameter tuning.
+As we see from precision metric the classifiers can not easily distinguish ECG signals between the classes N, S and F. Especially in data exploration notebook we saw that even if using fast fourier transformation the plots of the classes N and F still semmed quit similar. As a result, in future work we will try to find better feautures to and do some experimetns in order to better characterize heartbeats from these three classes.
