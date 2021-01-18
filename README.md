@@ -8,7 +8,7 @@ The dataset consists of 109446 ECG samples each one being a heartbeat which is d
 
 In this project we will deal with time series of same length, with each one representing a heartbeat. It's expected that we will deal with a classification problem of imbalanced classes as, we have the following statistical information abou the train and test set combined:
 
-<img src="pie.png">
+<img src="pie.png",width="727" height="558">
 
 ## Preprocessing
 In order to process the data we proceeded to the following steps:
