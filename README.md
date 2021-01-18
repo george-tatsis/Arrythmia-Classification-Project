@@ -10,12 +10,6 @@ In this project we will deal with time series of same length, with each one repr
 
 <img src="pie.png">
 
-![Test Image 1](pien.png)
-
-![Test Image 2]("pie.png")
-
-![Test Image 3](/pie.png)
-
 ## Preprocessing
 In order to process the data we proceeded to the following steps:
  - We checked for missing values and we have found none
