@@ -32,6 +32,7 @@ The first model is a SVM model with an rbf kernel. Fristly we will use the model
 wiht the following parameters:
 - C = 45
 - gamma = 0.1
+
 Then we will use grid cross validation for hyperparameter tuning, which are the following:
 - principal components = 13
 - C = 45
@@ -45,9 +46,9 @@ Transferable Representation”. In: 2018 IEEE International Conference on Health
 matics (ICHI). 2018, pp. 443–444. DOI : 10.1109/ICHI.2018.00092.
 
 Description:
-Total params: 55,013
-Trainable params: 55,013
-Non-trainable params: 0
+- Total params: 55,013
+- Trainable params: 55,013
+- Non-trainable params: 0
 
 We have trained the neural network for 30 epochs.
 
@@ -55,9 +56,9 @@ We have trained the neural network for 30 epochs.
 The last model we used is a convolutional neural network using the inception blocks architecture.
 
 Description:
-Total params: 4,053,061
-Trainable params: 4,053,061
-Non-trainable params: 0
+- Total params: 4,053,061
+- Trainable params: 4,053,061
+- Non-trainable params: 0
 
 He have trained the network for 5 epochs.
 
@@ -65,70 +66,78 @@ He have trained the network for 5 epochs.
 
 ### SVM
 TOTAL TIME: 8.590498952070872 minutes
+
 BALANCED ACCURACY: 0.9120627201713548
+
 CLASSIFICATION REPORT:
 
-                 precision    recall  f1-score   support
- 
-           N       0.99      0.97      0.98     18118
-           S       0.58      0.82      0.68       556
-           V       0.91      0.94      0.93      1448
-           F       0.44      0.85      0.58       162
-           Q       0.98      0.98      0.98      1608
+                          precision    recall  f1-score   support
+            
+                    N       0.99      0.97      0.98     18118
+                    S       0.58      0.82      0.68       556
+                    V       0.91      0.94      0.93      1448
+                    F       0.44      0.85      0.58       162
+                    Q       0.98      0.98      0.98      1608
 
-    accuracy                           0.96     21892
-   macro avg       0.78      0.91      0.83     21892
-weighted avg       0.97      0.96      0.96     21892
+             accuracy                           0.96     21892
+            macro avg       0.78      0.91      0.83     21892
+         weighted avg       0.97      0.96      0.96     21892
 
 ### PCA - SVM :
 TOTAL TIME: 14.590498952070872 minutes
+
 BALANCED ACCURACY: 0.9071815554960809
+
 CLASSIFICATION REPORT:
 
-                precision    recall  f1-score   support
+                          precision    recall  f1-score   support
 
-           N       0.99      0.89      0.94     18118
-           S       0.32      0.83      0.46       556
-           V       0.84      0.91      0.87      1448
-           F       0.17      0.93      0.29       162
-           Q       0.91      0.97      0.94      1608
+                    N       0.99      0.89      0.94     18118
+                    S       0.32      0.83      0.46       556
+                    V       0.84      0.91      0.87      1448
+                    F       0.17      0.93      0.29       162
+                    Q       0.91      0.97      0.94      1608
 
-    accuracy                           0.90     21892
-   macro avg       0.65      0.91      0.70     21892
-weighted avg       0.95      0.90      0.92     21892
+             accuracy                           0.90     21892
+            macro avg       0.65      0.91      0.70     21892
+         weighted avg       0.95      0.90      0.92     21892
 
 
 ### Residual Convolutional Network :
 TOTAL TIME: 0.6849900325139363 minutes
+
 BALANCED ACCURACY: 0.9228672182817697
+
 CLASSIFICATION REPORT:
 
-                precision    recall  f1-score   support
+                         precision    recall  f1-score   support
 
-           N       0.99      0.98      0.98     18118
-           S       0.61      0.84      0.70       556
-           V       0.94      0.93      0.94      1448
-           F       0.63      0.88      0.74       162
-           Q       0.97      0.99      0.98      1608
+                    N       0.99      0.98      0.98     18118
+                    S       0.61      0.84      0.70       556
+                    V       0.94      0.93      0.94      1448
+                    F       0.63      0.88      0.74       162
+                    Q       0.97      0.99      0.98      1608
 
-    accuracy                           0.97     21892
-   macro avg       0.83      0.92      0.87     21892
-weighted avg       0.97      0.97      0.97     21892
+             accuracy                           0.97     21892
+            macro avg       0.83      0.92      0.87     21892
+         weighted avg       0.97      0.97      0.97     21892
 
 ### Network with inception blocks :
 TOTAL TIME: 12.68472870985667 minutes
+
 BALANCED ACCURACY: 0.935212511051738
+
 CLASSIFICATION REPORT:
 
 
-                 precision    recall  f1-score   support
+                         precision    recall  f1-score   support
 
-           N       0.99      0.98      0.99     18118
-           S       0.67      0.87      0.76       556
-           V       0.93      0.96      0.94      1448
-           F       0.64      0.88      0.74       162
-           Q       0.98      0.99      0.98      1608
+                    N       0.99      0.98      0.99     18118
+                    S       0.67      0.87      0.76       556
+                    V       0.93      0.96      0.94      1448
+                    F       0.64      0.88      0.74       162
+                    Q       0.98      0.99      0.98      1608
 
-    accuracy                           0.97     21892
-   macro avg       0.84      0.94      0.88     21892
-weighted avg       0.98      0.97      0.98     21892
+             accuracy                           0.97     21892
+            macro avg       0.84      0.94      0.88     21892
+         weighted avg       0.98      0.97      0.98     21892
