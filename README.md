@@ -83,6 +83,9 @@ CLASSIFICATION REPORT:
             macro avg       0.78      0.91      0.83     21892
          weighted avg       0.97      0.96      0.96     21892
 
+
+<img src="Src/tables/SVM_rbf__with_resampling.png" width="1393" height="642">
+
 ### PCA - SVM :
 TOTAL TIME: 14.590498952070872 minutes
 
@@ -102,6 +105,8 @@ CLASSIFICATION REPORT:
             macro avg       0.65      0.91      0.70     21892
          weighted avg       0.95      0.90      0.92     21892
 
+
+<img src="Src/tables/PCA__SVM_rbf__with_resampling.png" width="1393" height="642">
 
 ### Residual Convolutional Network :
 TOTAL TIME: 0.6849900325139363 minutes (A GPU has been used for the training process)
@@ -123,6 +128,8 @@ CLASSIFICATION REPORT:
          weighted avg       0.97      0.97      0.97     21892
 
 
+<img src="Src/tables/Res_Conv_NN__with_resampling.png" width="1393" height="642">
+
 ### Network with inception blocks :
 TOTAL TIME: 12.68472870985667 minutes (A GPU has been used for the training process)
 
@@ -143,6 +150,8 @@ CLASSIFICATION REPORT:
             macro avg       0.84      0.94      0.88     21892
          weighted avg       0.98      0.97      0.98     21892
 
+
+<img src="Src/tables/Inc_Conv_NN__with_resampling.png" width="1393" height="642">
 
 ## Future Work
 Due to limited time, in the future we would conduct some more experiments for a better parameter tuning.
