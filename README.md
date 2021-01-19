@@ -104,7 +104,7 @@ CLASSIFICATION REPORT:
 
 
 ### Residual Convolutional Network :
-TOTAL TIME: 0.6849900325139363 minutes (A GPU have been used for the training process)
+TOTAL TIME: 0.6849900325139363 minutes (A GPU has been used for the training process)
 
 BALANCED ACCURACY: 0.9228672182817697
 
@@ -124,7 +124,7 @@ CLASSIFICATION REPORT:
 
 
 ### Network with inception blocks :
-TOTAL TIME: 12.68472870985667 minutes (A GPU have been used for the training process)
+TOTAL TIME: 12.68472870985667 minutes (A GPU has been used for the training process)
 
 BALANCED ACCURACY: 0.935212511051738
 
