@@ -84,7 +84,7 @@ CLASSIFICATION REPORT:
          weighted avg       0.97      0.96      0.96     21892
 
 
-<img src="Src/tables/SVM_rbf__with_resampling.png" width="1393" height="642">
+<img src="Src/tables/SVM_rbf__with_resampling.png">
 
 ### PCA - SVM :
 TOTAL TIME: 14.590498952070872 minutes
